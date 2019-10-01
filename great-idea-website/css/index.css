@@ -64,3 +64,16 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid green;
+}
+
+.top-header{
+	 border: 1px solid blue;
+}
+
+.top-header .navigation {
+	border: 1px solid red;
+}
