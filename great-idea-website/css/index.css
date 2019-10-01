@@ -67,13 +67,40 @@ h1, h2, h3, h4, h5 {
 .container{
 	width: 80%;
 	margin: 0 auto;
+	padding: 0;
 	border: 1px solid green;
 }
 
-.top-header{
-	 border: 1px solid blue;
+header{
+	margin-bottom: 20px;
+	border: 1px solid blue;
 }
 
-.top-header .navigation {
+nav{
+	height: 50px;
+	padding: 0;
 	border: 1px solid red;
+}
+
+nav a{
+	margin: -10px 15px;
+	padding: 0 25px;
+	text-align: center;
+	border: 1px solid grey;
+	color: gray;
+	text-decoration: none;
+}
+
+header .cta{
+	width: 80%;	
+	margin: 20px auto;
+	border: 1px solid brown;
+}
+
+section{
+	border: 1px solid green;
+}
+
+footer{
+	border: 1px solid purple;
 }
