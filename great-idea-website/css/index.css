@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -64,3 +66,158 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+	position: relative;
+	width: 60%;
+	margin: 0 auto;
+	font-family: 'Work Sans', sans-serif;
+	padding: 0;
+	
+}
+
+
+.navigation{
+	position: fixed;
+	height: 70px;
+	top: 0;
+	width: 100%;
+	padding: 0;
+	background-color: #2f578c;
+	z-index: 999;
+
+}
+
+.navigation a{
+	margin-top: 40px;
+	margin-right: 20px; 
+	padding: 0;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+
+}
+
+.navigation a:hover{
+	color: #137a86;
+}
+
+.navigation .logo{
+	position: relative;
+	top: 12px;
+	left: 305px;
+}
+
+.header{
+	margin-top: 100px;
+}
+
+.cta{
+	position: relative;
+	width: 100%;
+	height: 600px;
+	padding: 0;	
+	margin: 0px auto;
+	
+}
+
+.cta-box{
+	position: relative;
+	width: 50%;
+
+}
+
+.cta-header-box{
+	top: 140px;
+	left: 0;
+}
+
+ .cta-header{
+	width: 60%;
+	margin: 10% auto;
+	padding: 0;
+	font-size: 85px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cta a{
+	margin: 0 30%;
+	padding: 10px 50px;
+	color: black;
+	text-decoration: none;
+	border: 1px solid black;
+}
+
+.cta a:hover{
+	color: white;
+	background-color: black;
+}
+.cta-img-box{
+	top: -275px;
+	left: 504px;
+}
+
+.cta-img{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+.section-container{
+	width: 100%;
+}
+
+.section-border{
+	padding: 50px 0;
+}
+
+.section-top {
+	column-count: 2;
+	border-top: 2px solid black;
+}
+
+.section-bottom{
+	column-count: 3;
+	border-bottom: 2px solid black;
+}
+.section-col-header{
+	font-size: 24px;
+}
+
+.section-img img{
+	width: 100%;
+}
+
+.contact{
+	margin: 50px 0;
+	padding: 30px 0;
+}
+
+.contact p {
+	line-height: 30px;
+}
+
+ .address{
+	margin: 50px 0;
+	line-height: 25px;
+}
+
+.footer{
+	width: 100%;
+	height: 100px;
+	padding: 0;
+	background-color: #000;
+	color: white;
+}
+
+.copyright{
+	position: relative;
+	top: 50px;
+	margin: 0 auto;
+	width: 200px;
+	padding: 0;
+	text-align: center;
+}
